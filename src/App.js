@@ -1,10 +1,13 @@
 import './App.css';
+import Body from './Body';
+import Comment from './Comment';
+
 
 function App() {
   return (
     <div className="app">
-      <h1>Body</h1>
-      <h2>comment</h2>
+      <Body />
+      <Comment />
     </div>
   );
 }

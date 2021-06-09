@@ -1,0 +1,12 @@
+
+.comment__display{
+    display: flex;
+    flex-direction: column;
+    padding:1%;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    height: auto;
+    width: fit-content;
+    border-bottom: 1px solid gray;
+    /* border: 1px solid black; */
+}
