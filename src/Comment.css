@@ -1,12 +1,24 @@
+.comment{
+    background-color: white;
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+}
 
+textarea{
+    margin-left: 10vw;
+}
 .comment__display{
     display: flex;
-    flex-direction: column;
+    flex-direction:row-reverse;
     padding:1%;
-    border-radius: 5px;
     margin-bottom: 2px;
     height: auto;
     width: fit-content;
-    border-bottom: 1px solid gray;
-    /* border: 1px solid black; */
+    margin-left: 10vw;
+}
+
+.comment__post{
+    display: flex;
+    margin-bottom: 2%;
 }
